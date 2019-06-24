@@ -40,7 +40,7 @@ if not os.path.exists(dirName):
 	os.makedirs(dirName + '/PDF')
 
 print(bcolors.OKBLUE + "[+] Total Number of Pages are " + str(totalPages-1))
-for i in range(1,5):
+for i in range(1,totalPages):
 	siteA = requests.get("https://lecturenotes.in" + link + str(i))
 	soupA = BeautifulSoup(siteA.content,'lxml')
 
