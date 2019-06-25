@@ -5,8 +5,11 @@ A Python script to download notes from LectureNotes in PDF format
 # Python Libraries Used
 
 > 1.BeautifulSoup
+
 > 2.Requests
+
 > 3.Img2pdf
+
 > 4.Pillow
 
 # Required Modules Installation
