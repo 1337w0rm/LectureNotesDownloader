@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
-import img2pdf 
-from PIL import Image 
+import img2pdf  
 import requests
 import re
 import os
