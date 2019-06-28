@@ -10,8 +10,6 @@ A Python script to download notes from LectureNotes in PDF format
 
 > 3.Img2pdf
 
-> 4.Pillow
-
 # Required Modules Installation
 
 ```pip3 install -r requirements.txt```
@@ -19,4 +17,5 @@ A Python script to download notes from LectureNotes in PDF format
 # How to Run
 
 ```chmod +x lecturenotes.in.py```
+
 ```python3 lecturenotes.in.py```
