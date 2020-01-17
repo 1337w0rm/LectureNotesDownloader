@@ -16,6 +16,7 @@ A Python script to download notes from LectureNotes in PDF format
 
 # How to Run
 
-```chmod +x lecturenotes.in.py```
-
+> 1. First install the required python libraries
+> 2. Then install "lxml"
+> 3. Run
 ```python3 lecturenotes.in.py```
