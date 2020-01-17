@@ -10,8 +10,6 @@ A Python script to download notes from LectureNotes in PDF format
 
 > 3.Img2pdf
 
-> 4.Pillow
-
 # How to Run
 
 > 1. First install the required python libraries
