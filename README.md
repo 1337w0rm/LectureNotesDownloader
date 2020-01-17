@@ -10,13 +10,12 @@ A Python script to download notes from LectureNotes in PDF format
 
 > 3.Img2pdf
 
-# Required Modules Installation
-
-```pip3 install -r requirements.txt```
+> 4.Pillow
 
 # How to Run
 
 > 1. First install the required python libraries
+```sudo pip install -r requirements```
 > 2. Then install "lxml"
 > 3. Run
 ```python3 lecturenotes.in.py```
