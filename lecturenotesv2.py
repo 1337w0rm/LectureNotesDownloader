@@ -22,6 +22,7 @@ def getURL(noteid):
 
 		createDir()
 
+		#This block of code gets path for the images
 		for j in data["page"]:
 			#Ignoring some prime feature hence some pages will not be available
 			if j["upgradeToPrime"] == True:
@@ -36,7 +37,7 @@ def createDir():
 
 
 def getImage(pic,dirname,i):
-
+	#This block of code downloads images from the path locally
 	pageLinks = "https://lecturenotes.in" + pic
 	r = requests.get(pageLinks)
 	print(i)
@@ -47,6 +48,7 @@ def getImage(pic,dirname,i):
 
 
 def makePDF():
+	#This block of code converts the downloaded images to PDF
 	with open(dirName + '/PDF/' + dirName + ".pdf","wb") as f:
 		f.write(img2pdf.convert(imagenames))
 		f.close
