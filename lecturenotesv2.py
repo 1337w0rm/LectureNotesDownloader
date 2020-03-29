@@ -55,8 +55,9 @@ def makePDF():
 
 if __name__ == "__main__":
 
-	print("Enter Note ID: ")
-	noteid = input()
+	print("Enter URL for the Note: ")
+	url = input()
+	noteid = url.split('/')[4].split('-')[0]
 	print("Enter filename: ")
 	dirName = input()
 	getURL(noteid)
